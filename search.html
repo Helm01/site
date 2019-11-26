@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт вроді</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/a88f8a6d90.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="logo" style="margin: -3px 190px 0 0;"><a href="home.html">Допомічник</a></li>
+            <li><a href="home.html">Домашня</a></li>
+            <li><a href="reviews.html">Огляди</a></li>
+            <li><a href="games.html">Ігри</a></li>
+            <li><a href="best.html">Найкраще</a></li>
+            <a href="login.html" class="login" style="margin-left: 410px;" title="Авторизуватися, зареєструватися">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="search.html" class="search" title="Пошук">
+                <i class="fas fa-search"></i>
+            </a>
+        </ul>
+    </header>
+    <main style="padding-bottom: 286px">
+        <div class="container-form">
+            <form action="">
+                <input type="text" id="search-form" name="search" placeholder="Пошук" maxlength="17">
+                <button>
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="filther" style="margin-top: -60px;">
+            <h2>Фільтри</h2>
+            <div style="padding-top: 7px;">
+                <input type="checkbox" name="browser" id="browser"><label for="browser" style="margin-right: 68px;">Браузер</label>
+
+                <input type="checkbox" name="message" id="message"><label for="message" style="margin-right: 76px">Месенджер</label>
+
+                <input type="checkbox" name="runtimes" id="runtimes"><label for="runtimes">Платформа</label>
+
+                <input type="checkbox" name="compres" id="compres"><label for="compres">Архів</label>
+
+                <br>
+
+                <input type="checkbox" name="antivir" id="antivir"><label for="antivir" style="margin-right: 62px">Антівірус</label>
+
+                <input type="checkbox" name="util" id="util"><label for="util" style="margin-right: 70px;">Інші послуги</label>
+
+                <input type="checkbox" name="storage" id="storage"><label for="storage" style="margin-right: 53px;">Онлайн диск</label>
+
+                <input type="checkbox" name="document" id="document"><label for="document">Документ</label>
+
+                <br>
+
+                <input type="checkbox" name="develop" id="develop"><label for="develop">Розробка</label>
+
+                <input type="checkbox" name="media" id="media"><label for="media">Музика, тощо</label>
+
+                <input type="checkbox" name="imaging" id="imaging"><label for="imaging">Візуалізація</label>
+
+                <input type="checkbox" name="other" id="other"><label for="other">Інше</label>
+            </div>
+        </div>
+
+        <div class="results">
+            <h1>Результати пошуку:</h1>
+            <h2>Поки нічого не знайдено...</h2>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">Copyright &copy; 2019 Допомічник. Деякі права захищені.</div>
+    </footer>
+</body>
+
+</html>

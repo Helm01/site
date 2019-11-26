@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт вроді</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/a88f8a6d90.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="logo" style="margin: -3px 190px 0 0;"><a href="home.html">Допомічник</a></li>
+            <li><a href="home.html">Домашня</a></li>
+            <li><a href="reviews.html">Огляди</a></li>
+            <li><a href="games.html">Ігри</a></li>
+            <li><a href="best.html">Найкраще</a></li>
+            <a href="login.html" class="login" style="margin-left: 410px;" title="Авторизуватися, зареєструватися">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="search.html" class="search" title="Пошук">
+                <i class="fas fa-search"></i>
+            </a>
+        </ul>
+    </header>
+    <main class="loginpage">
+        <div id="login">
+            <form action="">
+                <h1>Авторизуватися</h1>
+                <div class="username">
+                    <label for="username">Введіть ім'я користувача чи єлектронну пошту:</label>
+                    <br>
+                    <input type="text" name="login" id="username">
+                </div>
+                <div class="password">
+                    <label for="password">Введіть пароль:</label>
+                    <br>
+                    <input type="text" name="login" id="password">
+                </div>
+                <button>Увійти <i class="fas fa-sign-in-alt"></i></button>
+            </form>
+        </div>
+        <div id="register">
+            <form action="">
+                <h1>Реєстрація</h1>
+                <div>
+                    <label for="username">Введіть ім'я користувача:</label>
+                    <br>
+                    <input type="text" name="register" id="username">
+                </div>
+                <div>
+                    <label for="password">Введіть пароль:</label>
+                    <br>
+                    <input type="text" name="register" id="password">
+                </div>
+                <div>
+                    <label for="password2">Повторіть пароль:</label>
+                    <br>
+                    <input type="text" name="register" id="password2">
+                </div>
+                <div>
+                    <label for="email">Введіть єлектронну пошту:</label>
+                    <br>
+                    <input type="email" name="register" id="email">
+                </div>
+                <span>Реєструючись на сайті ви приймаете
+                    та погоджуєтесь з <a href="">угодою користовача</a>.</span>
+                <button style="margin-top: 13px;">Зареєструватися <i class="fas fa-user-plus"></i></button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer"><span>Copyright &copy; 2019 Допомічник. Деякі права захищені.</span></div>
+    </footer>
+</body>
+
+</html>

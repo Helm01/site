@@ -1,0 +1,345 @@
+/*General*/
+html {
+    background: #e6e9e9;
+    background-image: url(../images/background311.png)
+}
+
+body {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+/*Header*/
+header {
+    border-bottom: solid 1px #e8e8e8;
+    background: #577bff;
+    padding: 0 15px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 15px 15px 0 15px;
+    margin: 0
+}
+
+header ul a {
+    font-size: 20px;
+    color: #fff;
+    padding: 18px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px
+}
+
+header ul a:hover {
+    background-color: #3d67ff;
+    text-decoration: none;
+    transition: all 0.35s;
+}
+
+.logo a {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    padding: 6px;
+}
+
+.logo a:hover {
+    background-color: #577bff;
+}
+
+.search,
+.login {
+    padding: 15px;
+}
+
+.search i,
+.login i {
+    font-size: 24px;
+}
+
+.search:hover,
+.login:hover {
+    background-color: #3d67ff;
+    transition: all 0.35s;
+}
+
+/*Main*/
+
+main {
+    background: #fff;
+    margin: 15px auto 0px;
+    max-width: 1150px;
+    padding: 5px 15px;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    margin: 20px 0 5px 0;
+}
+
+/*Search*/
+
+#search-form {
+    width: 180px;
+    height: 30px;
+    padding: 0 30px;
+    border-radius: 40px;
+    border: solid 2px #ccc;
+    outline: none;
+    margin: 55px 0 0 840px;
+}
+
+#search-form:focus {
+    border-color: #577bff;
+    transition: 0.35s;
+}
+
+.container-form button {
+    position: absolute;
+    background: none;
+    border: none;
+    right: 173px;
+    margin-top: 63px;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-form button:hover {
+    color: #5d67ff;
+}
+
+.filther input {
+    display: none;
+}
+
+.filther label {
+    margin-right: 60px;
+    padding-left: 20px;
+}
+
+.filther label::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 2px;
+    transition: 0.2s;
+    background: #ccc;
+    border-radius: 50%;
+    margin-bottom: 3.5px;
+}
+
+.filther input:checked + label::before {
+    background: #577bff;
+    background-image: url(../images/correct-symbol.png);
+    background-size: 100%;
+}
+
+.filther h2 {
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 280px;
+}
+
+
+.results h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.results h2 {
+    color: lightgrey;
+}
+
+/*Login*/
+
+.loginpage {
+    max-width: 700px;
+}
+
+.loginpage h1 {
+    padding-bottom: 5px;
+    border-bottom: solid 3px #577bff;
+}
+
+.loginpage div div {
+    margin-left: 20px;
+}
+
+.loginpage input {
+    width: 400px;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 30px;
+    border: solid 2px #ccc;
+    outline: none;
+    margin-bottom: 13px;
+}
+
+.loginpage input:focus {
+    border-color: #577bff;
+    transition: 0.35s;
+}
+
+.loginpage button {
+    margin-left: 22px;
+    cursor: pointer;
+    background: #577bff;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 2px #3d67ff;
+    margin: 5px 0 8px 22px;
+}
+
+.loginpage button:hover {
+    background: #3d67ff;
+    transition: 0.35s;
+}
+
+/*Best*/
+
+.bestpage {
+    text-align: center;
+}
+
+.bestpage ul {
+    list-style: none;
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: solid 3px #3d67ff;
+}
+
+.bestpage ul div {
+    max-width: 250px;
+    height: 310px;
+    border: solid #ccc 3px;
+    padding: 10px;
+}
+
+.bestpage ul div:hover {
+    border-color: #577bff;
+    transition: 0.35s;
+}
+
+.bestpage ul div img {
+    max-width: 100px;
+    padding: 7px;
+}
+
+.bestpage ul div p {
+    color: #545454;
+}
+
+.bestpage ul a {
+    text-decoration: none;
+}
+
+.bestpage ul li {
+    margin-right: 120px;
+}
+
+/*Reviews*/
+
+.reviewspage {
+    padding-top: 20px;
+}
+
+.blocks {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0 23px;
+}
+
+.blocks a {
+    margin-right: 30px;
+}
+
+.blocks div {
+    width: 520px;
+    padding: 5px;
+    border: solid 3px #ccc;
+    height: 250px;
+}
+
+.blocks div:hover{
+    border-color: #577bff;
+    transition: 0.35s
+}
+
+.reviewspage a{
+    color: #545454;
+}
+
+.reviewspage a:hover{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.reviewspage h2{
+    margin-top: 0px;
+}
+
+.whatsappreview {
+    width: 520px;
+    padding: 5px;
+    border: solid 2px #545454;
+    height: 250px;
+}
+
+/*Games*/
+
+.gamepage div {
+    width: 700px;
+    padding: 5px;
+    border: solid 2px #545454;
+    margin-bottom: 30px;
+}
+
+.gamepage img {
+    border-radius: 5px;
+}
